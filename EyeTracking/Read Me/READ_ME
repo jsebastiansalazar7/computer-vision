@@ -1,0 +1,12 @@
+The Eye Tracking application need many files to be run.  There are 3 folders, they are: Cascades, EyeDetectorClass and Videos.  There's also a python file named webCamFaceDetection.py which actually performs the face detection.  A short explanation of each folder is:
+
+Cascades:  It has built-in Haar cascade classifiers that are pre-trained to recognize faces and eyes.  That files are serialized as XML files and are commonly used with OpenCV
+
+EyeDetectorClass: It has a file which defines the EyeTracker class. It handle how we are going to find eyes in an image.
+
+Videos: Videos to track faces and eyes in them
+
+The videoEyeTracking.py uses and object of the EyeTracker class and the classifiers from the Haar built-in classifiers to detect faces and eyes.  To run this file, the working directory might be EyeTracking.  To achieve this, open the command line and type:
+
+cd Documents/Practice/Applications/EyeTracking
+

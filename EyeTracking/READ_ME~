@@ -1,0 +1,12 @@
+The WebCam Face Detection application need many files to be run.  There are 3 folders, they are: Cascades, FaceDetectorClass and Video.  There's also a python file named webCamFaceDetection.py which actually performs the face detection.  A short explanation of each folder is:
+
+Cascades:  It has built-in Haar cascade classifiers that are pre-trained to recognize faces.  That files are serialized as XML files and are commonly used with OpenCV
+
+FaceDetectorClass: It has a file which defines the Face Detector class. It handle how we are going to find faces in an image.
+
+Videos: Videos to find faces in them
+
+The webCamFaceDetection.py uses and object of the FaceDetector class and a classifier from the Haar built-in classifiers to detect faces.  To run this file, the working directory might be WebCamFaceDetection.  To achieve this, open the command line and type:
+
+cd Documents/Practice/Applications/WebCamFaceDetection
+

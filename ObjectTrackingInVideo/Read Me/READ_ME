@@ -1,0 +1,5 @@
+The WebCam ObjectTracking application track objects by its color.  We just have to supply the path for the video.  There's a folder with videos to use the application.
+
+To run this file, the working directory might be ObjectTrackingInVideo.  To achieve this, open the command line and type:
+
+cd Documents/Practice/Applications/ObjectTrackingInVideo
