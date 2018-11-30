@@ -2,7 +2,7 @@
 
 This project includes some interesting computer vision applications applied to both images and videos.  The implementation was done using the programming language Python with open cv.
 
-### Scipts
+### Applications
 
 1. Object Tracking in Video
 2. Face Detection
